@@ -79,7 +79,7 @@ public class AmazonDynamoDBSample {
      */
     private static void addSampleItems() {
 		// Add an item
-		Map<String, AttributeValue> item = createItem("john@example.com", "John", "Boyer");
+		Map<String, AttributeValue> item = createItem("john@example.com", "John", "Doe");
 		PutItemRequest putItemRequest = new PutItemRequest(TABLE, item);
 		PutItemResult putItemResult = sDynamoDB.putItem(putItemRequest);
 		System.out.println("Result: " + putItemResult);
