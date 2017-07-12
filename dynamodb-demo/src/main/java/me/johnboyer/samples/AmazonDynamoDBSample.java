@@ -193,6 +193,8 @@ public class AmazonDynamoDBSample {
             scanTable();
             
             deleteTable();
+            
+            sDynamoDB.shutdown();
 
         } catch (AmazonServiceException ase) {
             System.out.println("Caught an AmazonServiceException, which means your request made it "

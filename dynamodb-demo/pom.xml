@@ -11,4 +11,28 @@
     </dependency>
   </dependencies>
   <artifactId>dynamodb-demo</artifactId>
+  
+  <build>
+    <plugins>
+        <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.0.2</version>
+        <configuration>
+                <source>1.6</source>
+                <target>1.6</target>
+        </configuration>
+     </plugin>
+        <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <configuration>
+             <mainClass>me.johnboyer.samples.AmazonDynamoDBSample</mainClass>
+        </configuration>
+        </plugin>
+        <plugin>
+        	<groupId>org.codehaus.mojo</groupId>
+        	<artifactId>exec-maven-plugin</artifactId>
+        </plugin>
+    </plugins>
+   </build>
 </project>
