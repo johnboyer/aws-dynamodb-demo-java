@@ -69,9 +69,9 @@ public class AmazonDynamoDBSample {
 	 */
     private static final String TABLE = "customer";
     /**
-     * Test mode flag, change to <code>false</code> to stop deleting the table.
+     * Test mode flag, change to <code>true</code> to delete the table.
      */
-    private static final boolean TEST_MODE = true;
+    private static final boolean TEST_MODE = false;
     
 
     /**
