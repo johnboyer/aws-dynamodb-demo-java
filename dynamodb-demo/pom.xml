@@ -23,6 +23,9 @@
         </configuration>
      </plugin>
         <plugin>
+        <!-- Enables the Java app to be invoked via the command line:
+             mvn exec:java
+         -->
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
         <configuration>
