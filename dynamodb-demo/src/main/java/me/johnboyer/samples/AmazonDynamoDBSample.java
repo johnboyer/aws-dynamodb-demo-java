@@ -1,7 +1,3 @@
-package me.johnboyer.samples;
-import static com.amazonaws.services.dynamodbv2.model.ScalarAttributeType.S;
-
-import java.util.Date;
 /*
  * Copyright John Boyer. All Rights Reserved.
  *
@@ -16,6 +12,10 @@ import java.util.Date;
  * express or implied. See the License for the specific language governing
  * permissions and limitations under the License.
  */
+package me.johnboyer.samples;
+import static com.amazonaws.services.dynamodbv2.model.ScalarAttributeType.S;
+
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
